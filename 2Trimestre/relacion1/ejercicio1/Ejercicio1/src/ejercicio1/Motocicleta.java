@@ -1,5 +1,7 @@
+package ejercicio1;
 /**
- * Motocicleta
+ *
+ * @author serrperry
  */
 public class Motocicleta {
     private int caballosdp;
@@ -43,6 +45,6 @@ public class Motocicleta {
         this.numeroMatricula = numeroMatricula;
     }
     public void mostrarMatricula(){
-        System.out.println(letrasMatricula + numeroMatricula);
+        System.out.println(numeroMatricula + letrasMatricula);
     }
 }
